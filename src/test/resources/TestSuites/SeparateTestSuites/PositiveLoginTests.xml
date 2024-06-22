@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="PositiveLoginTestSuite" verbose="1">
+
+	<test name="PositiveLoginTest-WithoutProfile">
+		<classes>
+			<class name="com.em.logintests.PositiveLoginTests" />
+		</classes>
+	</test>
+	
+</suite>
